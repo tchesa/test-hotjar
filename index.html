@@ -31,5 +31,12 @@
     </select>
     <button type="submit">Submit</button>
   </form>
+  <button type="button" onclick="sendTrigger()">Send trigger</button>
+  <script>
+    function sendTrigger() {
+      console.log('hj test_trigger')
+      hj('trigger', 'test_trigger')
+    }
+  </script>
 </body>
 </html>
